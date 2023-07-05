@@ -398,6 +398,9 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.4.0.72892": {
+        "type": "package"
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -1449,6 +1452,26 @@
         "version.txt"
       ]
     },
+    "SonarAnalyzer.CSharp/9.4.0.72892": {
+      "sha512": "hSUQ8ddC56salRggZHY69hR51HU1HVSlmKuQ9+0kXGFa9NYUdJ3WI81LMbuXT4Ui0UCdGKeCEoJzZJlfBF8kqA==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/9.4.0.72892",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "license/THIRD-PARTY-NOTICES.txt",
+        "sonaranalyzer.csharp.9.4.0.72892.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -2029,6 +2052,7 @@
     "net6.0": [
       "DevIO.Business >= 1.0.0",
       "DevIO.Data >= 1.0.0",
+      "SonarAnalyzer.CSharp >= 9.4.0.72892",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2082,6 +2106,12 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.4.0.72892, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"

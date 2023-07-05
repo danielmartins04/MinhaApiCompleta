@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WlyoHmUuCXqZ659vRAfGfe+JTLy/xIW2/37Km+4dPhQ8WEO0B9ApsQUlS3QB8oXyOMumoCFyeENhpa2EamsKpg==",
+  "dgSpecHash": "ThjtHqSJbcB/PqXlSgvy1ButZ0rOB4HrVa5KuUXa/4xUKG/s1bz2SW9Xi8cMQSvEEsUwdClPaZ5FU9yfYLqwHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\freit\\Desktop\\Dev IO\\01 MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\freit\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\freit\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\freit\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\freit\\.nuget\\packages\\sonaranalyzer.csharp\\9.4.0.72892\\sonaranalyzer.csharp.9.4.0.72892.nupkg.sha512",
     "C:\\Users\\freit\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\freit\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\freit\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
